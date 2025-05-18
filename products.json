@@ -5,7 +5,7 @@
     "price": 249,
     "originalPrice": 399,
     "discount": "37.59%",
-    "image": "img/WhatsApp Image 2025-05-11 at 17.18.01.jpeg"
+    "image": "WhatsApp Image 2025-05-11 at 17.18.01.jpeg"
 
   },
   {
@@ -14,7 +14,7 @@
     "price": 249,
     "originalPrice": 399,
     "discount": "37.59%",
-    "image": "img/day cream.jpeg"
+    "image": "day cream.jpeg"
   },
   {
     "id": "3",
@@ -22,6 +22,6 @@
     "price": 299,
     "originalPrice": 399,
     "discount": "25.7%",
-    "image": "img/day cream.jpeg"
+    "image": "day cream.jpeg"
   }
 ]
