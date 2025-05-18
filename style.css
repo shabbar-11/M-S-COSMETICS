@@ -1,0 +1,220 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: "Lora", serif;
+  background-color: #faf9f9;
+  color: #554d4d;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header */
+header {
+  background-color: #f8c7d1; /* Soft pink */
+  color: #444;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 1rem;
+  color: #965353;
+  font-weight: 600;
+  position: relative;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+nav a::after {
+  content: "";
+  position: static;
+  width: 0;
+  height: 2px;
+  background: #f8c7d1;
+  bottom: -5px;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+nav a:hover {
+  color: #e2b0a4;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+/* Hero Section */
+.hero {
+  background: url("images/banner.jpg") no-repeat center center/cover;
+  background-color: rgba(255, 182, 193, 0.5); /* Soft pink overlay */
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  background-color: #ac6958;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #d08f80;
+  transform: translateY(-3px);
+}
+
+/* About and Contact Sections */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#about,
+#contact {
+  background-color: #fff0f5;
+}
+
+section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #6e3a2e;
+}
+
+section p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* Instagram Link Styling */
+.social-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+/* Instagram Logo */
+.social-links a img {
+  width: 25px; /* Smaller size */
+  height: auto;
+  margin-right: 8px;
+}
+
+/* Hover Effect for Instagram */
+.social-links a:hover {
+  color: #c13584; /* Instagram color */
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+/* Footer */
+footer {
+  background-color: #f8c7d1;
+  text-align: center;
+  padding: 20px;
+  color: #444;
+  font-size: 1rem;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 0.9rem;
+  color: #5a4e4e;
+}
+html {
+  scroll-behavior: smooth;
+}
+nav a {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #d92382;
+  transition: width 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #d92382;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+.hero .btn,
+.add-cart,
+.buy-now {
+  transition: all 0.3s ease-in-out;
+}
+
+.hero .btn:hover,
+.add-cart:hover,
+.buy-now:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.product {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+#open-cart {
+  z-index: 2000;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glow Beauty</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="logo-container">
+      <img src="logo.jpeg" alt="M&S Cosmetics Logo" class="site-logo" />
+      <h1>Glow Beauty</h1>
+      
+    
+      </button>
+    </div>
+    <nav id="mainNav">
+      <a href="#home">Home</a>
+      <a href="products.html">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>M&S COSMETICS</h2>
+    <p>Discover premium organic beauty products</p>
+    <a href="products.html" class="btn">Shop Now</a>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Glow Beauty is dedicated to bringing you the finest in beauty products. We focus on organic, natural ingredients that enhance your skin's natural glow. Our goal is to provide you with the best beauty products that cater to all your skincare needs. We believe in self-care, and we’re here to help you glow from within.
+    </p>
+  </section>
+
+  <section id="contact">
+  <h2>Contact Us</h2>
+
+  <!-- Instagram Link -->
+  <p style="text-align: center;">
+    <a href="https://www.instagram.com/mscosmeticsworld?igsh=MXIzcmMyZnM0dTd2MA==" target="_blank" style="color: #333; font-size: 20px; display: flex; justify-content: center; align-items: center; text-decoration: none;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo" style="width: 25px; height: 25px; margin-right: 8px;">
+      <span style="font-weight: 600;">M&S COSMETICSWORLD</span>
+    </a>
+  </p>
+
+  <!-- Email Link -->
+  <p style="text-align: center;">
+    <a href="mailto:your_email@example.com" style="color: #333; font-size: 20px; display: flex; justify-content: center; align-items: center; text-decoration: none;">
+      <i class="fas fa-envelope" style="font-size: 25px; margin-right: 8px;"></i>
+      <span style="font-weight: 600;">Parmarshabbar1@gmail.com</span>
+    </a>
+  </p>
+</section>
+
+
+  <footer>
+    <p>&copy; 2025 Glow Beauty. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript for toggling the navigation menu -->
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const mainNav = document.getElementById('mainNav');
+
+    menuToggle.addEventListener('click', () => {
+      mainNav.classList.toggle('show');
+    });
+  </script>
+</body>
+<script src="cart.js"></script>
+
+</html>

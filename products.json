@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "name": "Avocado Night Cream",
+    "price": 249,
+    "originalPrice": 399,
+    "discount": "37.59%",
+    "image": "img/WhatsApp Image 2025-05-11 at 17.18.01.jpeg"
+
+  },
+  {
+    "id": "2",
+    "name": "day cream",
+    "price": 249,
+    "originalPrice": 399,
+    "discount": "37.59%",
+    "image": "img/day cream.jpeg"
+  },
+  {
+    "id": "3",
+    "name": "advance bridal cream",
+    "price": 299,
+    "originalPrice": 399,
+    "discount": "25.7%",
+    "image": "img/day cream.jpeg"
+  }
+]
